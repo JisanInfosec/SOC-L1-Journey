@@ -1,66 +1,37 @@
-# 🛡️ SOC Tier 1 Analyst Journey
+# 🛡️ SOC Tier 1 Analyst Journey (12-Week Sprint)
 
-Welcome to my defensive security repository! My name is **Md Jisan**, and I am a Computer Science & Engineering undergraduate student. 
+Welcome to my defensive security portfolio! My name is **Md Badrudduja Jisan**. As an undergraduate Computer Science & Engineering student with an established foundation in offensive security and web penetration testing, this repository tracks my strategic 3-month pivot into **Defensive Security & Security Operations (Blue Teaming)**.
 
-Having already built a strong foundation in offensive security, web penetration testing, and bug hunting, this repository marks my intentional pivot into **Defensive Security (Blue Teaming)**. To bridge the gap between attacking systems and defending them, I am completely committing to the **Defronix Academy Job-Ready SOC Analyst Course**.
-
-The goal of this repository is to document my step-by-step progress, technical insights, and hands-on laboratory artifacts as I train to become a professional Tier 1 SOC Analyst.
-
----
-
-## 🚀 The Mission
-* **Objective:** Transition from an offensive mindset to a defensive operational workflow.
-* **Core Focus:** Log analysis, network forensics, enterprise environment defense (Active Directory/Linux), and enterprise SIEM/EDR/SOAR operations.
-* **Methodology:** Watch the training ➡️ Apply concepts in a local virtualized home lab ➡️ Document real artifacts (log snippets, Wireshark captures, SPL queries) here.
+To achieve maximum job readiness, I am dual-wielding two core resources simultaneously:
+1. **Theory:** Defronix Academy Job-Ready SOC Analyst Curriculum.
+2. **Practical:** TryHackMe (THM) SOC Level 1 Professional Learning Path (~65 Hours of Hands-on Labs).
 
 ---
 
-## 🗺️ Journey Roadmap
+## 📊 Sprint Progress Dashboard
 
-### 🔹 Phase 1: SOC Methodology & Attack Triaging
-* [ ] Class 01: Introduction & Importance of SOC in Blue Team
-* [ ] Class 02: Human Attack Vectors, Process & Technology
-* [ ] Class 03: System Attack Vectors & Vulnerabilities
-* [ ] Class 04: Alert Triage, TTPs & Threat IOCs
-* [ ] Class 05: Alert Reporting, Escalation & Cyber Kill Chain
-* [ ] Class 06: Malware For SOC
-* [ ] Class 07: Phishing & Social Engineering For SOC
-* [ ] Class 08: Password & Credential Stuffing Attack For SOC
-* [ ] Class 09: Hashing, Salting & Encryption For SOC
-* [ ] Class 10: Lateral Movement & Privilege Escalation
-* [ ] Class 11: Real World Interview Preparation For SOC L1
-* [ ] Class 12: MITM & DDOS For SOC L1
-
-### 🔹 Phase 2: Core Networking & Infrastructure Defense
-* [ ] Class 13: OSI & TCP/IP Models For SOC L1
-* [ ] Class 14: DNS, Ports & Protocols For SOC L1
-* [ ] Class 15: IP, Subnet & MAC Addresses For SOC L1
-* [ ] Class 16: Data Packets & 3 Way Handshake For SOC L1
-* [ ] Class 17: IDS, Proxy, VPN, Router & Switch For SOC L1
-* [ ] Class 18: APT, DNS Poisoning & Footprinting For SOC L1
-
-### 🔹 Phase 3: OS Architecture & Log Analysis
-* [ ] Class 19: Windows Architecture & Registry For SOC L1
-* [ ] Class 20: Windows Event Logs, Processes & Services
-* [ ] Class 21: Windows PowerShell For SOC L1
-* [ ] Class 22: Windows Active Directory For SOC L1
-* [ ] Class 23: Linux File System Architecture & Logs For SOC
-* [ ] Class 24: Linux Crontab & Commands For SOC
-
-### 🔹 Phase 4: Enterprise Tooling & Incident Operations
-* [ ] Class 25: Workbooks & Metrics For SOC
-* [ ] Class 26: Endpoint Detection & Response (EDR) For SOC
-* [ ] Class 27: Introduction To SIEM For SOC
-* [ ] Class 28: Guide To Splunk For SOC
-* [ ] Class 29: Guide To SOAR For SOC
+| Week | Target Focus Areas | Defronix Theory | TryHackMe Labs | Status |
+| :---: | :--- | :---: | :---: | :---: |
+| **01** | SOC Internals & Defense Frameworks | Classes 1-5, 10, 12 | Sections 1, 2, & 4 | 🔄 In Progress |
+| **02** | Phishing Analysis & Threat Intel | Classes 6-9, 18 | Sections 5 & 12 | ⏳ Pending |
+| **03** | Network Traffic & Forensics (Wireshark) | Classes 13-15 | Section 6 | ⏳ Pending |
+| **04** | Network Security & Monitoring (Snort) | Classes 16-17 | Section 7 | ⏳ Pending |
+| **05** | Web Application Security Monitoring | Web Attacks | Section 8 | ⏳ Pending |
+| **06** | Windows OS Architecture & Event Logging | Classes 19-20 | Section 9 | ⏳ Pending |
+| **07** | Linux System Architecture & Auditing | Classes 21, 23, 24 | Section 10 | ⏳ Pending |
+| **08** | Malware Concepts & Living off the Land | Review | Section 11 | ⏳ Pending |
+| **09** | SIEM, EDR, & SOAR Architectural Basics | Classes 22, 25, 26 | Section 3 | ⏳ Pending |
+| **10** | Active Log Triage Operations (Splunk) | Classes 27-29 | Section 13 | ⏳ Pending |
+| **11** | Incident Response Capstones (Part 1) | Class 30 | Section 14 (Tempest) | ⏳ Pending |
+| **12** | Advanced Incident Capstones & Interview Prep | Class 11 | Section 14 (Boogeyman) | ⏳ Pending |
 
 ---
 
-## 🔬 Active Labs & Portfolios
-*Inside the `/Labs` directory of this repo, you will find active proof-of-work, including:*
-* **Wireshark Packet Captures:** Analysis of live malicious traffic injections.
-* **Windows Event Viewer Audits:** Tracking malicious authentications (e.g., Event ID 4625 brute-force parsing).
-* **Splunk SIEM Environment:** Custom SPL search queries written to track down Indicators of Compromise (IoCs).
+## 🔬 Key Portfolio Artifacts
+*This repository contains verified proof-of-work showcasing real enterprise defensive skills:*
+* 💻 **SIEM Query Engineering:** Custom Splunk Search Processing Language (SPL) strings written to identify Indicators of Compromise (IoCs).
+* 🧫 **Log Analysis Records:** Structured parsing and filtering of Windows Security Event IDs (e.g., Event ID 4625 brute-force verification).
+* 🦅 **Network PCAP Examinations:** Wireshark frame breakdowns capturing simulated malicious exfiltration channels.
 
 ---
-*“The best offense is a well-engineered defense.” Follow along as I build my skills!*
+*“The best offense is a well-engineered defense.” Updates committed weekly.*
