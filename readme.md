@@ -1,6 +1,6 @@
 # 🛡️ SOC Tier 1 Analyst Journey
 
-Welcome to my defensive security repository! My name is **Md Badrudduja Jisan**, and I am a Computer Science & Engineering undergraduate student. 
+Welcome to my defensive security repository! My name is **Md Jisan**, and I am a Computer Science & Engineering undergraduate student. 
 
 Having already built a strong foundation in offensive security, web penetration testing, and bug hunting, this repository marks my intentional pivot into **Defensive Security (Blue Teaming)**. To bridge the gap between attacking systems and defending them, I am completely committing to the **Defronix Academy Job-Ready SOC Analyst Course**.
 
