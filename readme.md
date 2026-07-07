@@ -14,12 +14,12 @@ This roadmap tracks my milestone progression through core defensive concepts and
 * **PHASE 01: SOC Topography & Attack Surfaces**
   * 📺 Defronix: Classes 01 & 02 (Introduction, Human Vectors, Processes)
   * 🔬 TryHackMe: Section 1 & 2 (Junior Security Analyst Intro, SOC Role, Alert Triage)
-  * 📝 Status: 🔄 In Progress
+  * 📝 Status: Completed
 
 * **PHASE 02: Triage Frameworks & Incident Telemetry**
   * 📺 Defronix: Classes 03 & 04 (System Attack Vectors, TTPs, Threat IOCs)
   * 🔬 TryHackMe: Section 4 (Pyramid of Pain, Cyber Kill Chain, MITRE ATT&CK Mapping)
-  * 📝 Status: ⏳ Pending
+  * 📝 Status: 🔄 In Progress
 
 * **PHASE 03: Defensive Reporting & Phishing Architecture**
   * 📺 Defronix: Classes 05 & 06 (Alert Reporting, Escalation, Malware Fundamentals)
