@@ -53,21 +53,11 @@ As a future L1 analyst, my responsibility during this operational phase is to:
 ---
 
 ## 🔬 Lab Evidence
+No hands-on lab was associated with this theoretical session.
 
-### Mock SOC Simulation Scenario
-The practical portion of this session featured a guided walkthrough of a SOC incident response and remediation scenario modeled after TryHackMe environmental layouts.
-
-#### 1. Brute Force Analysis (Host: HQ-MAIL-02)
-* **Incident Profile:** The alerting queue captured high-volume, rapid sequential authentication failures targeting a critical mail server host.
-* **Analysis & Remediation:** Triaged the attack vector as an automated credential-guessing attempt. The floor resolution plan requires implementing an account lockout threshold policy and enforcing robust character requirements across user profiles to eliminate the attack surface.
-
-#### 2. Public Web Defacement Vector
-* **Incident Profile:** Perimeter alerting indicated unauthorized modification of a public-facing corporate web server interface.
-* **Analysis & Remediation:** The compromise points directly back to an unpatched software vulnerability (such as an input validation flaw like SQLi or RCE code execution). Operational mitigation demands scheduling emergency patch management and setting up routine vulnerability scanning cycles to close unpatched gaps before deployment.
-
-#### 3. Third-Party Supply Chain Compromise Simulation
-* **Incident Profile:** An internal endpoint exhibited anomalous outbound network connections immediately following a trusted application software update, mimicking a SolarWinds-style supply chain breach signature.
-* **Analysis & Remediation:** Isolated the endpoint using EDR controls. Long-term defense controls require strict application whitelisting, removing local administrative install privileges from user workstations, and setting up rigorous network segmentation so that an isolated client subnet compromise cannot cross into server infrastructure zones.
+**Future practical validation areas planned:**
+* Validate Wazuh agent deployment and log parsing formats on TryHackMe.
+* Execute basic alert triage scripts using simulated host and network metrics.
 
 ---
 
@@ -94,10 +84,11 @@ The practical portion of this session featured a guided walkthrough of a SOC inc
 * **Analyzing a Live Event Signature:** When an alert like `Malware detected on Host: GEORGE PC` fires, the underlying log tracks technical indicators including a timestamp (e.g., `13:20`), an absolute file path directory, a localized user descriptor, and a clear root-cause trace pointing to an unauthorized browser download originating from a pirated software domain.
 
 ---
+
 ## 🧠 My Takeaways
-1. Gained a clear understanding of the different SOC operational models (In-House, MSSP, Hybrid) and how the choice of model dictates how an analyst receives, triages, and escalates incoming alerts.
-2. Learned to look at systems through an attacker's perspective as potential attack vectors; this highlights the importance of a "Zero Trust" mindset, realizing that any internal corporate asset can be compromised and weaponized to move laterally or maintain persistence.
-3. Solidified the core distinction between software vulnerabilities (unintentional coding bugs) and misconfigurations (human deployment errors)—a critical diagnostic skill that prevents an analyst from misidentifying the root cause of an active incident.
+1. A solid triage process relies heavily on structured thinking; using the 5 Ws ensures no critical information is dropped when handing a ticket off to tier-2 or tier-3 analysts.
+2. Technology alone cannot defend an enterprise environment. Because attackers routinely target human psychology to bypass perimeter filters, an analyst must maintain a persistent "Trust but Verify" mindset for incoming user telemetry.
+
 ---
 
 ## 💪 Skills Acquired
@@ -118,3 +109,4 @@ The practical portion of this session featured a guided walkthrough of a SOC inc
 
 ## 📖 References
 * Defronix Class 02: Human Attack Vectors, Process & Technology
+* TryHackMe SOC Level 1 Pathway Architecture Resources
