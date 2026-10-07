@@ -32,7 +32,6 @@ Understand the attacker lifecycle from reconnaissance through actions on objecti
 As a future L1 analyst, my responsibility during this operational phase is to:
 * Identify where observed activity fits within the attack lifecycle and validate it using available evidence.
 * Document the alert clearly, determine whether escalation is required, and provide the next analyst with enough context to continue the investigation.
-* **[MANUAL INPUT: Add any personal L1 responsibility you want to emphasize.]**
 
 ---
 
@@ -111,16 +110,6 @@ As a future L1 analyst, my responsibility during this operational phase is to:
 
 ---
 
-##  Lab Evidence
-No hands-on lab was associated with this theoretical session.
-
-**Future practical validation areas planned:**
-* **[MANUAL INPUT: TryHackMe room for Cyber Kill Chain / attacker lifecycle analysis]**
-* **[MANUAL INPUT: SIEM lab for alert triage and investigation]**
-* **[MANUAL INPUT: EDR lab for process-tree and persistence analysis]**
-* **[MANUAL INPUT: Alert reporting and escalation exercise]**
-
----
 
 ##  SOC L1 Exam Notes
 
@@ -140,7 +129,6 @@ No hands-on lab was associated with this theoretical session.
 * When an L1 analyst should escalate.
 * What information belongs in an alert report.
 * Difference between suspicious activity and confirmed compromise.
-* **[MANUAL INPUT: Add additional interview questions discovered later.]**
 
 ### Common Alert Types Related To This Topic
 * Phishing email / malicious attachment
@@ -154,7 +142,6 @@ No hands-on lab was associated with this theoretical session.
 * Credential dumping
 * Lateral movement
 * Potential data exfiltration
-* **[MANUAL INPUT: Add SIEM/EDR alert names used in later practical labs.]**
 
 ---
 
@@ -163,7 +150,6 @@ No hands-on lab was associated with this theoretical session.
 * For network activity, an L1 analyst may review DNS requests, outbound connections, destination domains/IPs, and connection patterns when assessing possible C2 activity. SOC Analyst L1 Day 5
 * The lesson does **not** provide specific Windows Event IDs or individual port numbers, so none should be added to the Class 5 scope without separate verification.
 * In a ticketing platform, the analyst should record the evidence, verdict, severity, and next action so another analyst can continue the investigation without repeating the initial triage.
-* **[MANUAL INPUT: Add verified Event IDs, ports, or SIEM alert names after practical validation.]**
 
 ---
 
@@ -175,7 +161,6 @@ No hands-on lab was associated with this theoretical session.
 * Structured alert findings into a concise report.
 * Communicated technical findings according to the intended audience.
 * Correlated multiple indicators instead of judging a single event in isolation.
-* **[MANUAL INPUT: Add skills validated through hands-on practice.]**
 
 ---
 
